@@ -1,0 +1,297 @@
+2020-09-07 00:35:48.608 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:35:48.653 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:35:48.654 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:35:48.655 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:35:49.558 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:35:49.631 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:35:49.653 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:35:49.754 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:35:49.764 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.0448ms.
+2020-09-07 00:35:49.771 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:35:49.805 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 144.1344ms
+2020-09-07 00:35:49.807 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:35:49.811 -05:00 [Information] Request finished in 258.0837ms 200 application/json; charset=utf-8
+2020-09-07 00:35:51.396 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:35:51.419 -05:00 [Information] Request finished in 23.4669ms 200 text/html;charset=utf-8
+2020-09-07 00:35:51.552 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:35:51.644 -05:00 [Information] Request finished in 92.1812ms 200 application/json;charset=utf-8
+2020-09-07 00:35:55.013 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:35:55.017 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:35:55.029 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:35:55.083 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:37:38.890 -05:00 [Error] GetGamers: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 00:37:38.895 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 103809.9148ms.
+2020-09-07 00:37:38.906 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 00:37:38.909 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 103876.0549ms
+2020-09-07 00:37:38.912 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:37:38.914 -05:00 [Information] Request finished in 103902.3493ms 500 application/problem+json; charset=utf-8
+2020-09-07 00:43:04.080 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:43:04.127 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:43:04.128 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:43:04.129 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:43:04.981 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:43:05.035 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:43:05.057 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:43:05.142 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:43:05.153 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.0581ms.
+2020-09-07 00:43:05.161 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:43:05.191 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 127.05ms
+2020-09-07 00:43:05.193 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:43:05.196 -05:00 [Information] Request finished in 218.9293ms 200 application/json; charset=utf-8
+2020-09-07 00:43:07.140 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:43:07.162 -05:00 [Information] Request finished in 22.1604ms 200 text/html;charset=utf-8
+2020-09-07 00:43:07.293 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:43:07.389 -05:00 [Information] Request finished in 96.2594ms 200 application/json;charset=utf-8
+2020-09-07 00:43:10.418 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:43:10.424 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:43:10.437 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:43:10.484 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:43:11.084 -05:00 [Error] GetGamers: "System.MissingMethodException: No parameterless constructor defined for type 'PanbolApp.Core.Dto.GamerCard'.
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at RestSharp.Deserializers.JsonDeserializer.Deserialize[T](IRestResponse response)
+   at FireSharp.Extensions.ObjectExtensions.ReadAs[T](IRestResponse response)
+   at FireSharp.Response.FirebaseResponse.ResultAs[T]()
+   at PanbolApp.Infraestructura.Repository.PanbolAppRepository.GetGamers() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.Infraestructura\Repository\PanbolAppRepository.cs:line 35
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 00:43:11.093 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 605.9841ms.
+2020-09-07 00:43:11.097 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 00:43:11.100 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 659.9113ms
+2020-09-07 00:43:11.103 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:43:11.109 -05:00 [Information] Request finished in 691.0054ms 500 application/problem+json; charset=utf-8
+2020-09-07 00:43:24.280 -05:00 [Information] Application is shutting down...
+2020-09-07 00:44:22.738 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:44:22.783 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:44:22.784 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:44:22.785 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:44:23.652 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:44:23.705 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:44:23.729 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:44:23.807 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:44:23.815 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.6516ms.
+2020-09-07 00:44:23.822 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:44:23.855 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 117.7757ms
+2020-09-07 00:44:23.857 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:44:23.862 -05:00 [Information] Request finished in 213.4286ms 200 application/json; charset=utf-8
+2020-09-07 00:44:25.778 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:44:25.801 -05:00 [Information] Request finished in 22.3093ms 200 text/html;charset=utf-8
+2020-09-07 00:44:25.927 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:44:26.025 -05:00 [Information] Request finished in 97.83ms 200 application/json;charset=utf-8
+2020-09-07 00:44:29.423 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:44:29.426 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:44:29.440 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:44:29.490 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:44:37.190 -05:00 [Error] GetGamers: "System.MissingMethodException: No parameterless constructor defined for type 'PanbolApp.Core.Dto.GamerCard'.
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at RestSharp.Deserializers.JsonDeserializer.Deserialize[T](IRestResponse response)
+   at FireSharp.Extensions.ObjectExtensions.ReadAs[T](IRestResponse response)
+   at FireSharp.Response.FirebaseResponse.ResultAs[T]()
+   at PanbolApp.Infraestructura.Repository.PanbolAppRepository.GetGamers() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.Infraestructura\Repository\PanbolAppRepository.cs:line 35
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 00:44:37.199 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 7706.7322ms.
+2020-09-07 00:44:37.204 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 00:44:37.207 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 7763.1104ms
+2020-09-07 00:44:37.210 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:44:37.214 -05:00 [Information] Request finished in 7792.1923ms 500 application/problem+json; charset=utf-8
+2020-09-07 00:46:03.112 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:46:03.163 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:46:03.164 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:46:03.164 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:46:03.975 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:46:04.031 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:46:04.054 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:46:04.133 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:46:04.143 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.2042ms.
+2020-09-07 00:46:04.151 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:46:04.187 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 126.376ms
+2020-09-07 00:46:04.189 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:46:04.193 -05:00 [Information] Request finished in 222.3661ms 200 application/json; charset=utf-8
+2020-09-07 00:46:05.855 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:46:05.879 -05:00 [Information] Request finished in 24.6355ms 200 text/html;charset=utf-8
+2020-09-07 00:46:06.004 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:46:06.105 -05:00 [Information] Request finished in 101.5893ms 200 application/json;charset=utf-8
+2020-09-07 00:46:09.097 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:46:09.101 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:46:09.114 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:46:09.166 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:46:15.500 -05:00 [Error] GetGamers: "System.MissingMethodException: No parameterless constructor defined for type 'PanbolApp.Core.Dto.GamerCard'.
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at RestSharp.Deserializers.JsonDeserializer.Deserialize[T](IRestResponse response)
+   at FireSharp.Extensions.ObjectExtensions.ReadAs[T](IRestResponse response)
+   at FireSharp.Response.FirebaseResponse.ResultAs[T]()
+   at PanbolApp.Infraestructura.Repository.PanbolAppRepository.GetGamers() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.Infraestructura\Repository\PanbolAppRepository.cs:line 35
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 00:46:15.508 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6339.8146ms.
+2020-09-07 00:46:15.512 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 00:46:15.516 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 6397.5302ms
+2020-09-07 00:46:15.519 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:46:15.524 -05:00 [Information] Request finished in 6427.3899ms 500 application/problem+json; charset=utf-8
+2020-09-07 00:47:05.584 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:47:05.633 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:47:05.634 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:47:05.635 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:47:06.474 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:47:06.519 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:47:06.541 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:47:06.616 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:47:06.624 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.346ms.
+2020-09-07 00:47:06.631 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:47:06.665 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 116.9776ms
+2020-09-07 00:47:06.667 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:47:06.671 -05:00 [Information] Request finished in 199.712ms 200 application/json; charset=utf-8
+2020-09-07 00:47:08.427 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:47:08.450 -05:00 [Information] Request finished in 22.8627ms 200 text/html;charset=utf-8
+2020-09-07 00:47:08.581 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:47:08.668 -05:00 [Information] Request finished in 87.7192ms 200 application/json;charset=utf-8
+2020-09-07 00:47:11.973 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:47:11.977 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:47:11.990 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:47:12.044 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:47:21.011 -05:00 [Error] GetGamers: "System.MissingMethodException: No parameterless constructor defined for type 'PanbolApp.Core.Dto.GamerCard'.
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance[T]()
+   at RestSharp.Deserializers.JsonDeserializer.Deserialize[T](IRestResponse response)
+   at FireSharp.Extensions.ObjectExtensions.ReadAs[T](IRestResponse response)
+   at FireSharp.Response.FirebaseResponse.ResultAs[T]()
+   at PanbolApp.Infraestructura.Repository.PanbolAppRepository.GetGamers() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.Infraestructura\Repository\PanbolAppRepository.cs:line 35
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 00:47:21.021 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 8973.9078ms.
+2020-09-07 00:47:21.026 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 00:47:21.029 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 9032.458ms
+2020-09-07 00:47:21.033 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:47:21.037 -05:00 [Information] Request finished in 9064.0877ms 500 application/problem+json; charset=utf-8
+2020-09-07 00:48:12.603 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:48:12.652 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:48:12.653 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:48:12.654 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:48:13.511 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:48:13.557 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:48:13.580 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:48:13.656 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:48:13.664 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.7145ms.
+2020-09-07 00:48:13.675 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:48:13.706 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 119.8421ms
+2020-09-07 00:48:13.709 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:48:13.712 -05:00 [Information] Request finished in 204.5245ms 200 application/json; charset=utf-8
+2020-09-07 00:48:15.033 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:48:15.056 -05:00 [Information] Request finished in 22.347ms 200 text/html;charset=utf-8
+2020-09-07 00:48:15.194 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:48:15.283 -05:00 [Information] Request finished in 89.5596ms 200 application/json;charset=utf-8
+2020-09-07 00:48:18.397 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:48:18.401 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:48:18.414 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:48:18.470 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:48:48.433 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:48:48.489 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:48:48.490 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:48:48.490 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:48:49.180 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:48:49.227 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:48:49.250 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:48:49.327 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:48:49.335 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.5312ms.
+2020-09-07 00:48:49.344 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:48:49.376 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 119.2159ms
+2020-09-07 00:48:49.378 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:48:49.381 -05:00 [Information] Request finished in 204.2648ms 200 application/json; charset=utf-8
+2020-09-07 00:48:51.542 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:48:51.581 -05:00 [Information] Request finished in 38.2458ms 200 text/html;charset=utf-8
+2020-09-07 00:48:51.710 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:48:51.800 -05:00 [Information] Request finished in 90.6965ms 200 application/json;charset=utf-8
+2020-09-07 00:48:54.881 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:48:54.885 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:48:54.897 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:48:54.948 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:49:11.497 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16546.3651ms.
+2020-09-07 00:49:11.501 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.Core.Dto.GamerCard"'.
+2020-09-07 00:49:11.506 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 16605.0698ms
+2020-09-07 00:49:11.508 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:49:11.512 -05:00 [Information] Request finished in 16631.4015ms 200 application/json; charset=utf-8
+2020-09-07 00:52:28.144 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 00:52:28.202 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 00:52:28.203 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 00:52:28.204 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 00:52:28.972 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 00:52:29.032 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:52:29.054 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 00:52:29.148 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 00:52:29.159 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.0788ms.
+2020-09-07 00:52:29.171 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 00:52:29.212 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 150.9544ms
+2020-09-07 00:52:29.215 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 00:52:29.218 -05:00 [Information] Request finished in 250.6753ms 200 application/json; charset=utf-8
+2020-09-07 00:52:31.294 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 00:52:31.318 -05:00 [Information] Request finished in 24.8475ms 200 text/html;charset=utf-8
+2020-09-07 00:52:31.467 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 00:52:31.555 -05:00 [Information] Request finished in 88.0124ms 200 application/json;charset=utf-8
+2020-09-07 00:52:34.625 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 00:52:34.629 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 00:52:34.642 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 00:52:34.694 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 01:05:31.589 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 01:05:31.704 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 01:05:31.705 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 01:05:31.706 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 01:05:32.166 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 01:05:32.216 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 01:05:32.236 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 01:05:32.307 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 01:05:32.315 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.5032ms.
+2020-09-07 01:05:32.322 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 01:05:32.353 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 110.5048ms
+2020-09-07 01:05:32.355 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 01:05:32.360 -05:00 [Information] Request finished in 197.4686ms 200 application/json; charset=utf-8
+2020-09-07 01:05:33.939 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 01:05:33.962 -05:00 [Information] Request finished in 23.0844ms 200 text/html;charset=utf-8
+2020-09-07 01:05:34.093 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 01:05:34.182 -05:00 [Information] Request finished in 88.7189ms 200 application/json;charset=utf-8
+2020-09-07 01:05:39.727 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 01:05:39.732 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 01:05:39.744 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 01:05:39.798 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 01:05:56.324 -05:00 [Error] GetGamers: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 01:05:56.328 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 16527.5601ms.
+2020-09-07 01:05:56.331 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 01:05:56.334 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 16583.1023ms
+2020-09-07 01:05:56.335 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 01:05:56.339 -05:00 [Information] Request finished in 16612.2817ms 500 application/problem+json; charset=utf-8
+2020-09-07 01:14:07.057 -05:00 [Information] Now listening on: "http://localhost:5000"
+2020-09-07 01:14:07.117 -05:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-09-07 01:14:07.118 -05:00 [Information] Hosting environment: "Development"
+2020-09-07 01:14:07.119 -05:00 [Information] Content root path: "C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API"
+2020-09-07 01:14:07.790 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2020-09-07 01:14:07.839 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 01:14:07.869 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[PanbolApp.API.WeatherForecast] Get()" on controller "PanbolApp.API.Controllers.WeatherForecastController" ("PanbolApp.API").
+2020-09-07 01:14:07.946 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 01:14:07.956 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.6951ms.
+2020-09-07 01:14:07.966 -05:00 [Information] Executing ObjectResult, writing value of type '"PanbolApp.API.WeatherForecast[]"'.
+2020-09-07 01:14:07.997 -05:00 [Information] Executed action "PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)" in 119.3042ms
+2020-09-07 01:14:07.999 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.WeatherForecastController.Get (PanbolApp.API)"'
+2020-09-07 01:14:08.002 -05:00 [Information] Request finished in 215.0944ms 200 application/json; charset=utf-8
+2020-09-07 01:14:09.875 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+2020-09-07 01:14:09.898 -05:00 [Information] Request finished in 22.8263ms 200 text/html;charset=utf-8
+2020-09-07 01:14:10.032 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+2020-09-07 01:14:10.135 -05:00 [Information] Request finished in 103.7563ms 200 application/json;charset=utf-8
+2020-09-07 01:14:12.869 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 01:14:12.873 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 01:14:12.893 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 01:14:12.947 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid
+2020-09-07 01:14:19.117 -05:00 [Error] GetGamers: "System.NullReferenceException: Object reference not set to an instance of an object.
+   at PanbolApp.API.Controllers.PanbolAppController.Get() in C:\Alex\NET\Pruebas\PanbolApp\PanbolApp.API\Controllers\PanbolAppController.cs:line 32"
+2020-09-07 01:14:19.122 -05:00 [Information] Executed action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6170.6666ms.
+2020-09-07 01:14:19.125 -05:00 [Information] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2020-09-07 01:14:19.127 -05:00 [Information] Executed action "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" in 6230.0789ms
+2020-09-07 01:14:19.129 -05:00 [Information] Executed endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 01:14:19.131 -05:00 [Information] Request finished in 6262.8837ms 500 application/problem+json; charset=utf-8
+2020-09-07 01:14:28.675 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/api/PanbolApp  
+2020-09-07 01:14:28.678 -05:00 [Information] Executing endpoint '"PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)"'
+2020-09-07 01:14:28.680 -05:00 [Information] Route matched with "{action = \"Get\", controller = \"PanbolApp\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "PanbolApp.API.Controllers.PanbolAppController" ("PanbolApp.API").
+2020-09-07 01:14:28.701 -05:00 [Information] Executing action method "PanbolApp.API.Controllers.PanbolAppController.Get (PanbolApp.API)" - Validation state: Valid

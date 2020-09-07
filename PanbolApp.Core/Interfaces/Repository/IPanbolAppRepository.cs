@@ -8,6 +8,6 @@ namespace PanbolApp.Core.Interfaces.Repository
 {
     public interface IPanbolAppRepository
     {
-        Task<IEnumerable<GamerCard>> GetGamers();
+        Task<GamerCard> GetGamers();
     }
 }
