@@ -29,7 +29,7 @@ namespace PanbolApp.API.Controllers
         {
             try
             {
-                return Ok(await _panbolAppRepository.GetGamers());
+                return Ok(_panbolAppRepository.Get());
             }
             catch (Exception ex)
             {

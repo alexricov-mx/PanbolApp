@@ -34,7 +34,7 @@ namespace PanbolApp.API
             //Configura el uso de Swagger en el proyecto
             services.AddSwaggerGen();
 
-            services.AddTransient<IPanbolAppRepository>(s => new PanbolAppRepository(Configuration["ConnectionStrings:FirebaseURL"], Configuration["ApiKeys:FirebaseApiKey"], Configuration["Credenciales:FirebaseUser"], Configuration["Credenciales:FirebasePwd"]));
+            services.AddTransient<IPanbolAppRepository>(s => new PanbolAppRepository(Configuration["ConnectionStrings:AzureStorageAccountCnnString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
